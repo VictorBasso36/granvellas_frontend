@@ -1,0 +1,12 @@
+{
+    "Index": {
+        "title": "Hello world!",
+
+        "Navbar": {
+            "Venture": "El Emprendimiento",
+            "Jericoara": "Jericoara",
+            "Investment": "Inversión",
+            "Reserve": "Reserve su unidad"
+        }
+  }
+}
