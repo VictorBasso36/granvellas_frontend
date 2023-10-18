@@ -1,0 +1,101 @@
+.maainLanguageBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: var(--mainColor);
+}
+
+.containerLanguageBar{
+    width: 90%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+}
+.TelDiv div a{
+    transition: all 500ms ease-in-out;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.TelDiv div a:hover{ 
+    color: var(--suportColor);
+}
+.TelDiv div a img{ 
+    margin-right: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.TelDiv div a:hover img{
+    opacity: 0.7;
+}
+
+.MainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Separated{
+    width: 10px;
+    height: 10px;
+    background-color: #3c455e;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SocialMidia{
+    display: flex;
+}
+
+
+.LanguageDiv img{
+    transition: all 500ms ease-in-out;
+    margin-left: 10px;
+}
+
+.LanguageDiv img:hover{
+    opacity: 0.6;
+}
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 1024px){
+    .maainLanguageBar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 60px;
+        justify-content: center;
+        background-color: var(--mainColor);
+    }
+    
+    .containerLanguageBar{
+        width: 90%;
+        max-width: var(--max-width);
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        background-color: var(--mainColor);
+    }  
+
+  
+
+    .TelDiv div a img:last-child{ 
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+}

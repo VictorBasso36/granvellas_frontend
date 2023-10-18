@@ -2,37 +2,51 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import {useTranslations} from 'next-intl';
+import styles from './navBar.module.css';
 
 export default function NavBar() {
   const t = useTranslations('Index');
   return (
-    <nav>
-      <ul>
-        <li>
+    <nav className={styles.mainNavbar}>
+      <ul className={styles.mainListNavBar}>
+        <li className={styles.mainImageCommon}>
           <Link href="/">
-            <p>{t('Navbar.Venture')}</p>
+            <p>{t('Navbar.Venture').toLocaleUpperCase()}</p>
           </Link>
         </li>
-        <li>
+        <li className={styles.SeparatedLi}>
+          <div>
+          </div>
+        </li>
+        <li className={styles.mainImageCommon}>
           <Link href="/">
-            <p>{t('Navbar.Jericoara')}</p>
+            <p>{t('Navbar.Jericoara').toLocaleUpperCase()}</p>
           </Link>
         </li>
-        <li>
+        <li className={styles.mainImage}>
           <Link href="/">
-            <Image src="/Logo.svg" width={120} height={120} alt="Logo Gran Vellas" >
+            <Image src="/Logo.svg" width={150} height={150} alt="Logo Gran Vellas" >
               
             </Image>
           </Link>
         </li>
-        <li>
+        <li className={styles.menuHambLi}>
+          <div className={styles.menuHamb}>
+            a
+          </div>
+        </li>
+        <li className={styles.mainImageCommon}>
           <Link href="/">
-            <p>{t('Navbar.Investment')}</p>
+            <p>{t('Navbar.Investment').toLocaleUpperCase()}</p>
           </Link>
         </li>
-        <li>
+        <li className={styles.SeparatedLi}>
+          <div>
+          </div>
+        </li>
+        <li className={styles.mainImageCommon}>
           <Link href="/">
-            <p>{t('Navbar.Reserve')}</p>
+            <p>{t('Navbar.Reserve').toLocaleUpperCase()}</p>
           </Link>
         </li>
 
