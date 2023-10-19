@@ -6,6 +6,11 @@ import NavBar from '../common/navbar/navBar';
 import Footer from '../common/footer/footer';
 import MainBanner from './components/mainBanner';
 import GranVellasWind from './components/granVellasWind';
+import Video from '../common/video/video';
+import Form from '../common/formHere/form';
+import Assessment from '../common/Assessment/Assessment';
+import BlogList from '../common/blogList/blog';
+import Carrousel from '../common/carrousel';
 
 
 export default function Index() {
@@ -16,7 +21,11 @@ export default function Index() {
     <NavBar />
     <MainBanner />
     <GranVellasWind />
-    <h1>{t('title')}</h1>
+    <Carrousel />
+    <BlogList />
+    <Assessment />
+    <Video />
+    <Form />
     <Footer />
     </>
     );

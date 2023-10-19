@@ -7,6 +7,20 @@
       "Jericoara": "Jericoara",
       "Investment": "Investimento",
       "Reserve": "Reserve a sua unidade"
-      }
+    },
+    
+    
+    "Footer": {
+        "About": "Sobre",
+        "Contact": "Contato",
+        "service": "Atendimento",
+        "Talk": "Converse com um dos nossos corretores",
+        "dateWeek": "Segunda a domingo, das 8h às 18h"
+    },
+
+    "TitleVideo": "Seu lugar ao paraíso"
+
+  
+    
 }
 }

@@ -1,33 +1,78 @@
 "use client"
 import Image from 'next/image'
 import styles from './styles.module.css'
+import Link from 'next/link'
+import {useTranslations} from 'next-intl';
+
 
 export default function Footer() {
+  const t = useTranslations('Index');
   return (
     <footer className={styles.mainFooter}>
       <div className={styles.mainContainer}>
-        <ul>
-          <li>
-            <div>
+        <div>
+          <ul>
+            <Link href="/">
+              <Image src="/Logo.svg" width={150} height={150} alt={''}></Image>
+            </Link>
+          </ul>
+          <ul>
+              <li> 
+                <h6>{t('Footer.About')}</h6>
+              </li>
+              <li>
+                {t('Navbar.Venture')}
+              </li>
+              <li>
+                {t('Navbar.Jericoara')}
+              </li>
+              <li>
+                {t('Navbar.Investment')}
+              </li>
+              <li>
+                {t('Navbar.Reserve')}
+              </li>
+          </ul>
+          <ul>
+            <li>
+              <h6>
+                {t('Footer.Contact')}
+              </h6>
+            </li>
+            <li>
+              {t('Footer.Talk')}
+            </li>
+            <li>            
+              <Link href="/">
+                <Image src="/tel.svg" height={15} width={15} alt="Tel Gran Vellas Urbanismo">
 
-            </div>
-          </li>
-          <li>
-            <div>
-              
-            </div>
-          </li>
-          <li>
-            <div>
-              
-            </div>
-          </li>
-          <li>
-            <div>
-              
-            </div>
-          </li>
-        </ul>
+                </Image>
+                <p>(85) 98174-9319</p>
+              </Link>
+            </li>
+            <li>
+              <div className={styles.SocialMidia}>
+                <Link href="/">
+                  <Image src="/instagram.svg" height={15} width={15} alt="Instagram Gran Vellas Urbanismo"></Image>
+                </Link>
+                <Link href="/">
+                  <Image src="/youtube.svg" height={15} width={15} alt="Youtube Gran Vellas Urbanismo"></Image>
+                </Link>
+                <Link href="/">
+                  <Image src="/facebook.svg" height={15} width={15} alt="Facebook Gran Vellas Urbanismo"></Image>
+                </Link>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h6>{t('Footer.service')}</h6>
+            </li>
+            <li>
+              {t('Footer.dateWeek')}
+            </li>
+          </ul>
+        </div>
         <div className={styles.Note}>
           <p>AVISO LEGAL</p>
           

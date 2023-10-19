@@ -7,6 +7,17 @@
       "Jericoara": "Jericoara",
       "Investment": "Investment",
       "Reserve": "Reserve your unit"
-      }
+      },
+    "Footer": {
+      "About": "About",
+      "Contact": "Contact",
+      "service": "",
+      "Talk": "Talk to one of our brokers",
+      "dateWeek": "Monday to Sunday, from 8am to 6pm"
+    },
+    
+    "TitleVideo": "Your place in paradise."
+
+    
   }
 }
