@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {useTranslations} from 'next-intl';
 import styles from './navBar.module.css';
+import Logo from '../../../public/Logo.svg'
 
 export default function NavBar() {
   const t = useTranslations('Index');
@@ -25,7 +26,7 @@ export default function NavBar() {
         </li>
         <li className={styles.mainImage}>
           <Link href="/">
-            <Image src="/Logo.svg" width={150} height={150} alt="Logo Gran Vellas" >
+            <Image src={Logo} width={150} height={150} alt="Logo Gran Vellas" >
               
             </Image>
           </Link>
