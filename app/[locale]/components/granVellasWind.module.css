@@ -1,0 +1,65 @@
+.mainSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 700px;
+    background-image: url('/bgwind.svg');
+}
+
+.mainContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--max-width);
+    flex-direction: column;
+}
+
+.mainContainer h2{
+    margin-bottom: 40px;
+}
+
+.mainContainerCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.promoCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #ececec;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 30px;
+    width: 320px;
+}
+
+
+.firstFlower{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+    width: 50%;
+    max-width: 280px; 
+}
+
+.secondFlower{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    max-width: 280px; 
+}
