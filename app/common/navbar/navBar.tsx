@@ -31,11 +31,6 @@ export default function NavBar() {
             </Image>
           </Link>
         </li>
-        <li className={styles.menuHambLi}>
-          <div className={styles.menuHamb}>
-            a
-          </div>
-        </li>
         <li className={styles.mainImageCommon}>
           <Link href="/">
             <p>{t('Navbar.Investment').toLocaleUpperCase()}</p>

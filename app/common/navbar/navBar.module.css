@@ -82,4 +82,8 @@
     .mainImage{
         display: flex;
     }
+    
+    .SeparatedLi{
+        display: none;
+    }
 }
