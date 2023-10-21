@@ -6,7 +6,10 @@
     flex-direction: column;
     position: relative;
     padding-bottom: 700px;
+    background-size: cover;
     background-image: url('/bgwind.svg');
+    border-bottom: 2px solid var(--suportColor);
+    overflow: hidden;
 }
 
 .mainContainer{
@@ -19,7 +22,23 @@
 }
 
 .mainContainer h2{
+    color: var(--mainColor);
     margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.mainContainer h2 strong{
+    color: var(--suportColor);
+}
+
+.mainContainer h2 span{
+    text-decoration: underline var(--suportColor) 2px;
+}
+
+.mainContainerText{
+    text-align: center;
 }
 
 .mainContainerCards{
@@ -28,6 +47,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 60px;
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
@@ -38,12 +58,23 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 10px;
     background-color: #ececec;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 30px;
-    width: 320px;
+    width: 350px;
+}
+
+.promoCard p:nth-child(1){
+    line-height: 100%;
+    color: var(--mainColor);
+    font-weight: 500;
+}
+
+.promoCard p:nth-child(2){
+    color: var(--suportColor);
+    font-family: var(--young-serif-font-family);
+    font-size: 40px;
 }
 
 
@@ -54,6 +85,7 @@
     transform: scaleX(-1);
     width: 50%;
     max-width: 280px; 
+    margin-bottom: -10%;
 }
 
 .secondFlower{
@@ -62,4 +94,26 @@
     bottom: 0;
     width: 50%;
     max-width: 280px; 
+    margin-bottom: -10%;
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1250px){
+    .mainContainerCards{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 1250px){
+    .mainContainerCards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
 }

@@ -8,8 +8,8 @@ export default function GranVellasWind() {
       <>
         <section className={styles.mainSection}>
           <div className={styles.mainContainer}>
-              <h2>Conheça o Gran Vellas Wind, seu próximo sonho.</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur. </p>
+              <h2>Conheça o <strong>Gran Vellas Wind</strong>, seu <span>próximo sonho.</span></h2>
+              <p className={styles.mainContainerText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur. </p>
               <div className={styles.mainContainerCards}>
                 <div className={styles.promoCard}>
                   <p>EMPREENDIMENTO COM</p>
