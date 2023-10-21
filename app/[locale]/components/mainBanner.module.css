@@ -52,6 +52,7 @@
 
 .MainButton p{
     color: white;
+    line-height: 100%;
     font-size: 25px;
     font-family: var(--kanit-font-family);
 }

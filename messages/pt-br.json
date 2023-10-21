@@ -9,13 +9,28 @@
       "Reserve": "Reserve a sua unidade"
     },
     "MainBanner": "A oportunidade de ter um pedaço do paraíso chegou até você.",
-    
+    "Form": {
+      "title": "Dê o próximo passo",
+      "titleMain": "rumo ao seu sonho",
+      "name": "Nome",
+      "Email": "E-mail",
+      "Tel": "Telefone",
+      "button": "Reserve",
+      "buttonMain": "seu lote em jeri"
+    },
     "Footer": {
         "About": "Sobre",
         "Contact": "Contato",
         "service": "Atendimento",
         "Talk": "Converse com um dos nossos corretores",
         "dateWeek": "Segunda a domingo, das 8h às 18h"
+    },
+
+    "FooterNotes": {
+      "title": "AVISO LEGAL",
+      "p": "* Parcelas válidas para o lote 23 de 250,05m², não incluindo as 7 parcelas anuais de R$ 12.502,50, tanto as parcelas quanto os balões serão ajustados anualmente pelo IPCA+6%. (verifique a tabela e disponibilidade com seu corretor).",
+      "ptwo": "Reservamos o direito de alterar qualquer informação ou valor disponibilizado para os lotes ofertados e seus acessórios (condomínio, IPTU, etc.), tanto em nosso site quanto em qualquer outro meio de comunicação ou divulgação de ofertas sem aviso prévio.",
+      "ptree": "Também nos reservamos o direito de atender apenas os clientes que se identificarem com nome completo, telefone fixo ou móvel e e-mail, e a propriedade seja exclusivamente para seu uso e interesse. Clientes que se recusarem a fornecer tais informações, infelizmente, não poderão receber assistência, seja para venda ou para diversas dúvidas, não importando o quão simples possam ser; Clientes que nos contatarem solicitando informações para terceiros devem fornecer, além de seus próprios dados, os dados do terceiro interessado, a fim de evitar serviço duplicado e falhas de comunicação."
     },
 
     "TitleVideo": "Seu lugar ao paraíso"

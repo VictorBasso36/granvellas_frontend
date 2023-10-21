@@ -9,7 +9,15 @@
             "Reserve": "Reserve su unidad"
         },
         "MainBanner": "La oportunidad de tener un pedazo del paraíso ha llegado a ti.",
-    
+        "Form": {
+            "title": "Da el siguiente paso",
+            "titleMain": "hacia tu sueño",
+            "name": "Nombre",
+            "Email": "Correo electrónico",
+            "Tel": "Teléfono",
+            "button": "Reservar",
+            "buttonMain": "tu parcela en Jeri"
+        },
         "Footer": {
               "About": "Acerca de",
               "Contact": "Contacto",
@@ -18,6 +26,12 @@
               "dateWeek": "De lunes a domingo, de 8 a.m. a 6 p.m."
     
         },
+        "FooterNotes": {
+            "title": "AVISO LEGAL",
+            "p": "* Cuotas válidas para el lote 23 de 250,05 m², sin incluir las 7 cuotas anuales de R$ 12.502,50, tanto las cuotas como los globos se ajustarán anualmente por IPCA+6%. (consulte la tabla y la disponibilidad con su corredor).",
+            "ptwo": "Nos reservamos el derecho de cambiar cualquier información o valor proporcionado para los lotes ofrecidos y sus accesorios (condominio, impuesto a la propiedad, etc.), tanto en nuestro sitio web como en cualquier otro medio de comunicación o promoción de ofertas sin previo aviso.",
+            "ptree": "También nos reservamos el derecho de atender solo a aquellos clientes que se identifiquen con nombre completo, teléfono fijo o móvil y correo electrónico, y la propiedad sea exclusivamente para su uso e interés. Los clientes que se nieguen a proporcionar esta información, desafortunadamente, no podrán recibir asistencia, ya sea para la venta o para preguntas diversas, por simples que sean; Los clientes que nos contacten solicitando información para terceros deben proporcionar, además de sus propios datos, los datos del tercero interesado para evitar un servicio duplicado y fallas en la comunicación."
+          },
 
         "TitleVideo": "Tu lugar en el paraíso."
         

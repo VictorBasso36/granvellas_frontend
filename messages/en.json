@@ -9,6 +9,13 @@
       "Reserve": "Reserve your unit"
       },
     "MainBanner": "The opportunity to have a piece of paradise has come to you.",
+    "Form": {
+      "title": "Take the next step",
+      "titleMain": "toward your dream",
+      "name": "Name",
+      "Email": "Email",
+      "Tel": "Phone"
+    },
     "Footer": {
       "About": "About",
       "Contact": "Contact",
@@ -16,7 +23,12 @@
       "Talk": "Talk to one of our brokers",
       "dateWeek": "Monday to Sunday, from 8am to 6pm"
     },
-    
+    "FooterNotes": {
+      "title": "LEGAL NOTICE",
+      "p": "* Installments valid for lot 23 of 250.05m², not including the 7 annual installments of R$ 12,502.50, both installments and balloons will be annually adjusted by IPCA+6%. (check the table and availability with your broker).",
+      "ptwo": "We reserve the right to change any information or value provided for the offered lots and their accessories (condominium, property tax, etc.), both on our website and in any other means of communication or promotion of offers without prior notice.",
+      "ptree": "We also reserve the right to only assist those customers who identify themselves with full name, landline or mobile phone, and email, and the property is exclusively for their use and interest. Customers who refuse to provide such information, unfortunately, will not be able to receive assistance, whether for sale or various questions, no matter how simple they may be; Customers who contact us requesting information for third parties must provide, in addition to their own data, the data of the third party interested in order to avoid duplicate service and communication failures."
+    },
     "TitleVideo": "Your place in paradise."
 
     

@@ -119,6 +119,23 @@
 
     }
 
+    .firstFlower{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(-1);
+        width: 280px; 
+        margin-bottom: -10%;
+    }
+    
+    .secondFlower{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 280px; 
+        margin-bottom: -10%;
+    }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 550px){
@@ -149,4 +166,23 @@
         font-size: 25px;
     }
 
+    
+    .firstFlower{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(-1);
+        width: 280px; 
+        margin-left: -20%;
+        margin-bottom: -10%;
+    }
+    
+    .secondFlower{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 280px; 
+        margin-right: -20%;
+        margin-bottom: -10%;
+    }
 }

@@ -12,8 +12,89 @@
 .mainContainer{
     width: 90%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
     max-width: var(--max-width);
+}
+
+.mainContainer ul{
+    list-style: none;
+}
+
+.mainContainer ul li{
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    transition: all 500ms ease-in-out;
+    flex-direction: column;
+}
+
+.mainContainer ul li:hover{
+    color: var(--suportColor);
+}
+
+.mainContainer ul li h6{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.SocialMidia{
+    display: flex;
+}
+
+.SocialMidia img{
+    margin-right: 5px;
+}
+
+.SocialMidia img:hover{
+    opacity: 0.7;
+}
+
+.Note{
+    color: white;
+    opacity: 0.4;
+    margin-top: 120px;
+    text-align: justify;
+
+}
+
+.Note p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px){
+    .mainFooter{
+        width: 100%;
+        background-color: var(--mainColor);
+        padding: 40px 0px;
+        border-bottom: 25px solid var(--suportColor);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid var(--suportColor);
+    }
+    
+    .mainContainer{
+        width: 90%;
+        display: flex;
+        align-items: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        max-width: var(--max-width);
+    }  
+    
+    .mainContainer ul{
+        list-style: none;
+        margin-bottom: 60px;
+    }
 }
