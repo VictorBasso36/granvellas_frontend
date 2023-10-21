@@ -1,0 +1,32 @@
+.mainVideo{
+    background-size: cover;
+    background-image: url('/bgvideo.svg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.videoButton{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoButton h5{
+    font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+}
+
+.videoButton h5 strong{
+    
+    color: var(--suportColor);
+}

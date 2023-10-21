@@ -104,7 +104,7 @@
     }
 }
 
-@media screen and (min-width:0px) and (max-width: 1024px){
+@media screen and (min-width:550px) and (max-width: 1024px){
     .mainContainerCards{
         width: 100%;
         display: flex;
@@ -119,19 +119,34 @@
 
     }
 
-    .mainContainerCards {
-        width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 550px){
+    .promoCard{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 60px;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        display: flex;
-        transform: scale(0.8);
-      }
-      
+        flex-direction: column;
+        margin: 10px;
+        background-color: #ececec;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 30px;
+        width: 100%;
+    }
 
+    .promoCard p:nth-child(1){
+        line-height: 100%;
+        text-align: center;
+        color: var(--mainColor);
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .promoCard p:nth-child(2){
+        text-align: center;
+        color: var(--suportColor);
+        font-family: var(--young-serif-font-family);
+        font-size: 25px;
+    }
 
 }
