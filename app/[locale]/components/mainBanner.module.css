@@ -1,0 +1,78 @@
+.main{
+    background-color: var(--mainColor);
+    background-image: url('/backgroundMain.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.mainContainer{
+    width: 90%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: var(--max-width);
+}
+
+.mainContainer h1{
+    font-size: 50px;
+    color: white;
+    line-height: 100%;
+    font-weight: 300;
+    max-width: 420px;
+}
+
+.mainContainer h1 strong{
+    color: var(--suportColor);
+}
+
+.mainContainer h1 span{
+    font-weight: 500;
+}
+
+.MainButton{
+    padding: 0px 20px;
+    max-width: 400px;
+    margin-top: 20px;
+    height: 70px;
+    border: none;
+    outline: none;
+    border: 2px solid var(--suportColor);
+    background-color: #b8771a5c;
+    width: 100%;
+}
+
+.MainButton p{
+    color: white;
+    font-size: 25px;
+    font-family: var(--kanit-font-family);
+}
+
+.MainButton p span{
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1024px){
+    .main{
+        background-color: var(--mainColor);
+        background-image: url('/backgroundMain.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0px 0px 50px 0px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 60px;
+        justify-content: center;
+    }
+    .mainContainer{
+        width: 90%;
+        padding-top: 200px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 200px;
+        max-width: var(--max-width);
+    }  
+}
