@@ -9,6 +9,24 @@
             "Reserve": "Reserve su unidad"
         },
         "MainBanner": "La oportunidad de tener un pedazo del paraíso ha llegado a ti.",
+        "assessment": {
+            "mainTitle": "Una inversión única con infraestructura completa para ti",
+            "button": "adquiere tu lote",
+            "buttonMain": "ahora mismo",
+            "lastButton": "Asegura tu lote",
+            "lastButtonMain": "hoy",
+            "money": {
+              "title": "Compra facilitada en hasta 84 cuotas directamente con el desarrollador",
+              "money2": "Pago inicial a partir de",
+              "money3": "Cuotas mensuales a partir de"
+            },
+            "download": {
+              "LoteJuri": "Lote legalmente perfecto",
+              "make": "descargar",
+              "p1": "el registro",
+              "p2": "el permiso"
+            }
+          },
         "Form": {
             "title": "Da el siguiente paso",
             "titleMain": "hacia tu sueño",

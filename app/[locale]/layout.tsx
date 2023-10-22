@@ -2,13 +2,26 @@ import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import './globals.css'
 import { Young_Serif, Kanit } from 'next/font/google'
+import GraphQLProvider from '../lib/provider';
+import { Metadata } from 'next';
 
 const young_Serif = Young_Serif({ subsets: ['latin-ext'], weight: ['400'], variable: '--young-serif-font-family'})
 const kanit = Kanit({ subsets: ['latin-ext'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], variable: '--kanit-font-family' })
 export function generateStaticParams() {
-  return [{ locale: 'pt-br' }, { locale: 'en' }];
+  return [{ locale: 'pt-br' }, { locale: 'en' }, { locale: 'es' }];
 }
-
+export const metadata: Metadata = {
+  title: 'Gran Vellas Urbanismo - Lançamento do Empreendimento Imobiliário Jericoacoara',
+  description: 'A Gran Vellas Urbanismo tem o prazer de anunciar o lançamento do nosso novo empreendimento imobiliário, Jericoacoara. Localizado a cerca de 300 km de Fortaleza, Jeri é uma vila de pescadores encantadora e um dos destinos mais procurados por viajantes.',
+  viewport: {
+    minimumScale: 1,
+    initialScale: 1,
+    width: 'device-width'
+  },
+  icons: {
+    icon: '/Logo.svg',
+  },
+}
 export default async function LocaleLayout({
   children,
   params: { locale },
@@ -25,10 +38,17 @@ export default async function LocaleLayout({
 
   return (
   <html lang={locale}>
+    <meta name="robots" content="index, follow"></meta>
+    <meta name="revisit-after" content="5 days"></meta>
+    <meta name="author" content="Gran Vellas Urbanismo"></meta>
+    <meta name="language" content={locale}></meta>
+    <meta name="keywords" content="Empreendimento Imobiliário, Lançamento, Jericoacoara, Gran Vellas Urbanismo, Incorporadora, Imóveis, Localização Privilegiada, Vila de Pescadores, Praias Belas, Pontos Turísticos"></meta>
       <body className={`${young_Serif.variable} ${kanit.variable}`} >
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <GraphQLProvider>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </GraphQLProvider>
       </body>
     </html>
   );

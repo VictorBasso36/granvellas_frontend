@@ -9,14 +9,32 @@
       "Reserve": "Reserve a sua unidade"
     },
     "MainBanner": "A oportunidade de ter um pedaço do paraíso chegou até você.",
+    "assessment": {
+      "mainTitle": "Um investimento único e com infraestrutura completa para você",
+      "button": "adquira seu lote",
+      "buttonMain": "agora mesmo",
+      "lastButton": "Garanta seu lote",
+      "lastButtonMain": "ainda hoje",
+      "money": {
+        "title": "Compra facilitada em até 84x direto com incorporador",
+        "money2": "Entrada a partir de",
+        "money3": "Parcelas mensais a partir de"
+      },
+      "download": {
+        "LoteJuri": "Lote juridicamente perfeito",
+        "make": "download",
+        "p1": "do registro",
+        "p2": "do alvará"
+      }
+    },
     "Form": {
       "title": "Dê o próximo passo",
-      "titleMain": "rumo ao seu sonho",
+      "titleMain": "em direção ao seu sonho",
       "name": "Nome",
       "Email": "E-mail",
       "Tel": "Telefone",
       "button": "Reserve",
-      "buttonMain": "seu lote em jeri"
+      "buttonMain": "seu lote em Jeri"
     },
     "Footer": {
         "About": "Sobre",

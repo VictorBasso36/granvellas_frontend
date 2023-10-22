@@ -5,7 +5,8 @@
     margin-top: 60px;
     align-items: center;
     border-bottom: 2px solid var(--suportColor);
-    background-color: #334b62;
+    background: rgb(49,57,78);
+    background: linear-gradient(180deg, rgba(49,57,78,1) 13%, rgba(53,88,112,1) 82%);
 }
 
 .mainListNavBar{

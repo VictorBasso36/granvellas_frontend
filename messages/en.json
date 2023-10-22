@@ -9,12 +9,32 @@
       "Reserve": "Reserve your unit"
       },
     "MainBanner": "The opportunity to have a piece of paradise has come to you.",
+    "assessment": {
+      "mainTitle": "A unique investment with complete infrastructure for you",
+      "button": "get your plot",
+      "buttonMain": "right now",
+      "lastButton": "Secure your plot",
+      "lastButtonMain": "today",
+      "money": {
+        "title": "Easy purchase in up to 84 installments directly with the developer",
+        "money2": "Down payment starting from",
+        "money3": "Monthly installments starting from"
+      },
+      "download": {
+        "LoteJuri": "Legally perfect plot",
+        "make": "download",
+        "p1": "the record",
+        "p2": "the permit"
+      }
+    },
     "Form": {
       "title": "Take the next step",
       "titleMain": "toward your dream",
       "name": "Name",
       "Email": "Email",
-      "Tel": "Phone"
+      "Tel": "Phone",
+      "button": "Reserve",
+      "buttonMain": "your plot in Jeri"
     },
     "Footer": {
       "About": "About",

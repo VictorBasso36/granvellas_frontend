@@ -8,6 +8,7 @@ import {useTranslations} from 'next-intl';
 export default function Footer() {
   const t = useTranslations('Index');
   return (
+    <>
     <footer className={styles.mainFooter}>
       <div className={styles.mainContainer}>
           <ul>
@@ -83,6 +84,11 @@ export default function Footer() {
           <p>{t('FooterNotes.ptree')}</p>
         </div>
       </div>
+
     </footer>
+    <div className={styles.divDetail}>
+
+    </div>
+    </>
   )
 }

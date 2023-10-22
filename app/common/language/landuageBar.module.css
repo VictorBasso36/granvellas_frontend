@@ -8,7 +8,7 @@
     top: 0;
     justify-content: center;
     padding: 15px 0px;
-    background-color: var(--mainColor);
+    background-color: rgb(49 57 78);
 }
 
 .containerLanguageBar{
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--mainColor);
+
 }
 .TelDiv div a{
     transition: all 500ms ease-in-out;

@@ -1,11 +1,13 @@
 .mainFooter{
     width: 100%;
     background-color: var(--mainColor);
+    background: rgb(49,57,78);
+    background: linear-gradient(180deg, rgba(49,57,78,1) 25%, rgba(53,88,112,1) 90%);
     padding: 40px 0px;
-    border-bottom: 25px solid var(--suportColor);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     border-top: 2px solid var(--suportColor);
 }
 
@@ -22,6 +24,7 @@
 
 .mainContainer ul{
     list-style: none;
+    width: 200px;
 }
 
 .mainContainer ul li{
@@ -69,6 +72,13 @@
     line-height: 100%;
 }
 
+.divDetail{
+    background: rgb(172,110,13);
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(172,110,13,1) 30%, rgba(205,158,53,1) 64%, rgba(172,110,13,1) 95%); 
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px){
     .mainFooter{
         width: 100%;
@@ -84,7 +94,7 @@
     .mainContainer{
         width: 90%;
         display: flex;
-        align-items: flex;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
