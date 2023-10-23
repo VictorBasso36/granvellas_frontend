@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation'
 import Link from 'next/link';
 import styles from './landuageBar.module.css';
-
+import {useTranslations} from 'next-intl';
 
 export default function LanguageBar() {
   const [locale, setLocale] = useState("en-US");
@@ -20,8 +20,51 @@ export default function LanguageBar() {
     const browserLocale = navigator.language || "en-US";
     setLocale(browserLocale);
   }, []);
-  
+
+
+  const [menu, setMenu] = useState(false);
+  const t = useTranslations('Index');
   return (
+    <>
+    { menu &&
+      <div className={styles.mainMenuHere} onClick={() => setMenu(!menu)}>
+        <div className={styles.ModalHere}>
+          <div className={styles.LanguageDivModal}>
+            <Link href="/en">
+              <Image src="/eua.svg" width={35} height={25} alt="Gran vellas English language"></Image>
+            </Link>
+            <Link href="/pt-br">
+              <Image src="/pt_br.svg" width={35} height={25} alt="Gran vellas Portuguese language"></Image>
+            </Link>
+            <Link href="/es">
+              <Image src="/es.svg" width={35} height={25} alt="Gran vellas Spanish language"></Image>
+            </Link>
+          </div>
+          <ul className={styles.mainListNavBar}>
+            <li className={styles.mainImageCommon}>
+              <Link href="/">
+                <p>{t('Navbar.Venture').toLocaleUpperCase()}</p>
+              </Link>
+            </li>
+            <li className={styles.mainImageCommon}>
+              <Link href="/">
+                <p>{t('Navbar.Jericoara').toLocaleUpperCase()}</p>
+              </Link>
+            </li>
+            <li className={styles.mainImageCommon}>
+              <Link href="/">
+                <p>{t('Navbar.Investment').toLocaleUpperCase()}</p>
+              </Link>
+            </li>
+            <li className={styles.mainImageCommon}>
+              <Link href="/">
+                <p>{t('Navbar.Reserve').toLocaleUpperCase()}</p>
+              </Link>
+        </li>
+          </ul>
+        </div>
+      </div>
+    }
     <header className={styles.maainLanguageBar}>
       <div className={styles.containerLanguageBar}>
         <div className={styles.TelDiv}>
@@ -60,11 +103,19 @@ export default function LanguageBar() {
           <Link href="/es">
             <Image src="/es.svg" width={29} height={18} alt="Gran vellas Spanish language"></Image>
           </Link>
-          <div className={styles.hambmenu}>
-              a
+          <div className={`${styles.hambmenu}`}>
+            <div 
+              className={`${styles.hambmenuContainer} ${menu ? styles.menuExistis : ''}`} 
+              onClick={() => setMenu(!menu)}
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
     </header>
+    </>
   )
 }
