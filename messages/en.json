@@ -1,7 +1,11 @@
 {
   "Index": {
     "title": "Hello world!",
-
+    "meta": {
+      "title": "Gran Vellas Urbanismo - Launch of the Jericoacoara Real Estate Development",
+      "description": "Gran Vellas Urbanismo is pleased to announce the launch of our new real estate development, Jericoacoara. Located about 300 km from Fortaleza, Jeri is a charming fishing village and one of the most sought-after destinations for travelers.",
+      "metakeyswords": "Real Estate Development, Launch, Jericoacoara, Gran Vellas Urbanismo, Developer, Properties, Prime Location, Fishing Village, Beautiful Beaches, Tourist Attractions"
+    },
     "Navbar": {
       "Venture": "The Venture",
       "Jericoara": "Jericoara",

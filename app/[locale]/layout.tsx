@@ -4,7 +4,7 @@ import './globals.css'
 import { Young_Serif, Kanit } from 'next/font/google'
 import GraphQLProvider from '../lib/provider';
 import { Metadata } from 'next';
-
+import {createTranslator} from 'next-intl';
 const young_Serif = Young_Serif({ subsets: ['latin-ext'], weight: ['400'], variable: '--young-serif-font-family'})
 const kanit = Kanit({ subsets: ['latin-ext'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], variable: '--kanit-font-family' })
 export function generateStaticParams() {
@@ -35,14 +35,29 @@ export default async function LocaleLayout({
   } catch (error) {
     notFound();
   }
+  const t = createTranslator({locale, messages});
+  const metadata: Metadata = {
+    title: t('meta.title'),
+    description: t('meta.description'),
+    keywords: t('meta.metakeyswords'),
+    viewport: {
+      minimumScale: 1,
+      initialScale: 1,
+      width: 'device-width'
+    },
+    icons: {
+      icon: '/Logo.svg',
+    },
+  }
 
   return (
   <html lang={locale}>
     <meta name="robots" content="index, follow"></meta>
     <meta name="revisit-after" content="5 days"></meta>
-    <meta name="author" content="Gran Vellas Urbanismo"></meta>
+    <meta name="author" content={t('meta.title')}></meta>
     <meta name="language" content={locale}></meta>
-    <meta name="keywords" content="Empreendimento Imobiliário, Lançamento, Jericoacoara, Gran Vellas Urbanismo, Incorporadora, Imóveis, Localização Privilegiada, Vila de Pescadores, Praias Belas, Pontos Turísticos"></meta>
+    <meta name="keywords" content={t('meta.metakeyswords')}></meta>
+    <meta name="description" content={t('meta.description')}></meta>
       <body className={`${young_Serif.variable} ${kanit.variable}`} >
         <GraphQLProvider>
           <NextIntlClientProvider locale={locale} messages={messages}>

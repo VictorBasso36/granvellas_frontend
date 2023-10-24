@@ -1,7 +1,11 @@
 {
     "Index": {
         "title": "Hello world!",
-
+        "meta": {
+          "title": "Gran Vellas Urbanismo - Lanzamiento del Desarrollo Inmobiliario Jericoacoara",
+          "description": "Gran Vellas Urbanismo se complace en anunciar el lanzamiento de nuestro nuevo desarrollo inmobiliario, Jericoacoara. Situado a unos 300 km de Fortaleza, Jeri es un encantador pueblo de pescadores y uno de los destinos más buscados por los viajeros.",
+          "metakeyswords": "Desarrollo Inmobiliario, Lanzamiento, Jericoacoara, Gran Vellas Urbanismo, Desarrolladora, Propiedades, Ubicación Privilegiada, Pueblo de Pescadores, Hermosas Playas, Lugares Turísticos"
+        },
         "Navbar": {
             "Venture": "El Emprendimiento",
             "Jericoara": "Jericoara",
