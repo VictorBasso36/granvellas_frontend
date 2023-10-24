@@ -25,7 +25,7 @@ export default function NavBar() {
           </Link>
         </li>
         <li className={styles.mainImage}>
-          <Link href="/">
+          <Link href="/" title="Logo Gran Vellas">
             <Image src={Logo} width={150} height={150} alt="Logo Gran Vellas" >
               
             </Image>

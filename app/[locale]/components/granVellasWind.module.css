@@ -98,6 +98,26 @@
 }
 
 
+@media screen and (min-width: 1500px){
+    .firstFlower{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: scaleX(-1);
+        width: 350px;
+        margin-bottom: -50px;
+    }
+    
+    .secondFlower{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 350px; 
+        margin-bottom: -50px;
+    }
+    
+}
+
 @media screen and (min-width:1024px) and (max-width: 1250px){
     .mainContainerCards{
         justify-content: center;

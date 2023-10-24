@@ -13,7 +13,7 @@ export default function Footer() {
       <div className={styles.mainContainer}>
           <ul>
             <li>
-            <Link href="/">
+            <Link href="/" title="Logo Gran Vellas">
               <Image src="/Logo.svg" width={150} height={150} alt={''}></Image>
             </Link>
             </li>
@@ -45,7 +45,7 @@ export default function Footer() {
               {t('Footer.Talk')}
             </li>
             <li>            
-              <Link href="/" style={{display: "flex", alignItems: "center"}}>
+              <Link href="/"  style={{display: "flex", alignItems: "center"}}>
                 <Image src="/tel.svg" height={15} width={15} alt="Tel Gran Vellas Urbanismo">
 
                 </Image>

@@ -1,0 +1,41 @@
+
+.widthThis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/bgAvaliacoes.svg');
+}
+.ContainerLote button{
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 60px;
+    background: rgb(172,110,13);
+    background: linear-gradient(90deg, rgba(172,110,13,1) 30%, rgba(205,158,53,1) 64%, rgba(172,110,13,1) 95%);
+    border: 2px solid var(--suportColor);
+    margin-bottom: 30px;
+    display: flex;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.ContainerLote button:hover{
+    border: 2px solid var(--mainColor);
+}
+.ContainerLote button:hover .DetailButton{
+    background-color: var(--mainColor);
+}
+.ContainerLote button p{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.ContainerLote button p span{
+    font-weight: bold;
+}
