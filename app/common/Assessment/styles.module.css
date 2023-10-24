@@ -15,4 +15,154 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.containerMain h4{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+}
+
+.containerMain h4 strong{
+    color: var(--suportColor);
+}
+
+.containerMain h4 span{
+    text-decoration: underline 2px var(--suportColor);
+}
+
+.moneyp{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.moneyp span{
+    font-weight: bold;
+}
+
+
+.downloadHere{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--max-width);
+}
+
+.downloadHere h4{
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.downloadHere h4 strong{
+    color: var(--suportColor);
+}
+
+.downloadHere h4 span{
+    text-decoration: underline 2px var(--suportColor);
+}
+
+
+.buttonHere{
+    max-width: var(--max-width);
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainButton{
+    padding: 0px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border: none;
+    width: 100%;
+    outline: none;
+    border: 2px solid var(--suportColor);
+    background-color: #b8771a5c;
+    transition: all 500ms ease-in-out;
+}
+
+.MainButton:hover{
+    background-color: var(--mainColor);
+    
+}
+
+.buttonHere a{
+    width: 45%;
+}
+
+.MainButton p{
+    color: white;
+    line-height: 100%;
+    font-size: 25px;
+    font-family: var(--kanit-font-family);
+}
+
+.MainButton p span{
+    font-weight: bold;
+}
+
+.MainButton img{
+    transform: rotate(90deg);
+    margin-left: 20px;
+    width: 10px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width:1024px){
+    .buttonHere{
+        max-width: var(--max-width);
+        width: 100%;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .buttonHere a{
+        width: 100%;
+    }
+
+    
+    .MainButton{
+        padding: 0px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        border: none;
+        width: 100%;
+        outline: none;
+        border: 2px solid var(--suportColor);
+        background-color: #b8771a5c;
+        transition: all 500ms ease-in-out;
+    }
+
+    .MainButton img{
+        transform: rotate(90deg);
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 10px;
+    }
+
 }

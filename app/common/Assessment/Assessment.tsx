@@ -9,7 +9,7 @@ export default function Assessment() {
   return (
     <section className={styles.MainSection}>
       <div className={styles.containerMain}>
-        <h4 dangerouslySetInnerHTML={{ __html: t('assessment.money.title').replace(/(facilitada|purchase)/g, (match) => {
+          <h4 dangerouslySetInnerHTML={{ __html: t('assessment.money.title').replace(/(facilitada|purchase|com incorporador|the developer|el desarrollador)/g, (match) => {
             switch (match) {
               case 'facilitada':
               case 'purchase':
@@ -23,10 +23,11 @@ export default function Assessment() {
             }
           }) }}>
           </h4>
-        <p>{t('assessment.money.money2')} <span>R$25.005,00</span> + {t('assessment.money.money3')} <span>R$2.009,08.</span></p>
+
+        <p className={styles.moneyp}>{t('assessment.money.money2')} <span>R$25.005,00</span> + {t('assessment.money.money3')} <span>R$2.009,08.</span></p>
       </div>
       <div className={styles.mainSectionContainer}>
-          carrousel
+          clientes here
       </div>
       <div className={styles.downloadHere}>
         <h4 dangerouslySetInnerHTML={{ __html: t('assessment.download.LoteJuri')
@@ -35,11 +36,11 @@ export default function Assessment() {
               case 'legalmente':
               case 'juridicamente':
               case 'perfect':
-                return '<strong>' + match + '</strong>';
+                return '<span>' + match + '</span>';
               case 'perfecto':
               case 'plot':
               case 'perfeito':
-                return '<span>' + match + '</span>';
+                return '<strong>' + match + '</strong>';
               default:
                 return match;
             }
@@ -47,16 +48,16 @@ export default function Assessment() {
           </h4>
         <div className={styles.buttonHere}>
           <Link href="/">
-            <button>
-              <p>{t('assessment.download.make')}{' '}<span>{t('assessment.download.p1')}</span></p>
+            <button className={styles.MainButton}>
+              <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p1').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>
 
               </Image>
             </button>
           </Link>
           <Link href="/">
-            <button>
-            <p>{t('assessment.download.make')}{' '}<span>{t('assessment.download.p2')}</span></p>
+            <button className={styles.MainButton}>
+            <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p2').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>
 
               </Image>

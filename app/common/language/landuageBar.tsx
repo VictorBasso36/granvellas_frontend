@@ -23,6 +23,13 @@ export default function LanguageBar() {
 
 
   const [menu, setMenu] = useState(false);
+  useEffect(() => {
+    if (menu) {
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.documentElement.style.overflow = "";
+    }
+  }, [menu]);
   const t = useTranslations('Index');
   return (
     <>
