@@ -11,12 +11,29 @@ export default function Carrousel() {
       <div className={styles.Container}>
         <div className={styles.ContainerLote}>
           <div className={styles.LoteImage}>
-            <h3>{t('assessment.mainTitle')}</h3>
           </div>
           <button>
             <p><span>{t('assessment.button').toUpperCase()}{' '}</span> {t('assessment.buttonMain').toUpperCase()}</p>
           </button>
-
+          <h3 dangerouslySetInnerHTML={{ __html: t('assessment.mainTitle')
+          .replace(/(único|única|unique|para você|para ti|for you)/g, (match) => {
+            switch (match) {
+              case 'único':
+              case 'única':
+              case 'unique':
+                return '<strong>' + match + '</strong>';
+              case 'para você':
+              case 'para ti':
+              case 'for you':
+                return '<span>' + match + '</span>:';
+              default:
+                return match;
+            }
+          }) }}>
+          </h3>
+          <div>
+            carrousel
+          </div>
           <button>
             <p><span>{t('assessment.lastButton').toUpperCase()}{' '}</span> {t('assessment.lastButtonMain').toUpperCase()}</p>
           </button>

@@ -8,11 +8,31 @@
     background-repeat: no-repeat;
     background-image: url('/bgAvaliacoes.svg');
 }
+
+.Container{
+    width: 90%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ContainerLote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ContainerLote button{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    height: 60px;
+    height: auto;
+    max-width: 650px;
+    min-height: 60px;
     background: rgb(172,110,13);
     background: linear-gradient(90deg, rgba(172,110,13,1) 30%, rgba(205,158,53,1) 64%, rgba(172,110,13,1) 95%);
     border: 2px solid var(--suportColor);
@@ -20,6 +40,10 @@
     display: flex;
     transition: all 500ms ease-in-out;
     cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ContainerLote button:hover{
@@ -29,7 +53,7 @@
     background-color: var(--mainColor);
 }
 .ContainerLote button p{
-    font-size: 18px;
+    font-size: 22px;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
@@ -38,4 +62,21 @@
 
 .ContainerLote button p span{
     font-weight: bold;
+}
+
+
+.ContainerLote h3{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    width: 90%;
+}
+
+.ContainerLote h3 strong{
+    color: var(--suportColor);
+}
+
+.ContainerLote h3 span{
+    text-decoration: underline 2px var(--suportColor);
 }
