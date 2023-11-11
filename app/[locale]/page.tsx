@@ -12,7 +12,9 @@ import Assessment from '../common/Assessment/Assessment';
 import BlogList from '../common/blogList/blog';
 import Carrousel from '../common/carrousel';
 import { Metadata } from 'next';
-
+import styles from './page.module.css'
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Index() {
   const t = useTranslations('Index');
@@ -31,6 +33,13 @@ export default function Index() {
   }
   return (
     <>
+    <Link href='/'>
+      <div className={styles.whatsapp}>
+        <Image src='/whatsapp.svg' alt='whatsapp gran vellas' width={45} height={45}>
+
+        </Image>
+      </div>
+    </Link>
     <LanguageBar />
     <NavBar />
     <MainBanner />
