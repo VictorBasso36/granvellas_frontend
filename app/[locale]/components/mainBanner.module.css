@@ -101,6 +101,7 @@
         background-color: var(--mainColor);
         background-image: url('/backgroundMain.svg');
         background-size: cover;
+        background-position-x: 50% ;
         background-repeat: no-repeat;
         border-radius: 0px 0px 50px 0px;
         display: flex;
@@ -117,7 +118,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: left;
         max-width: var(--max-width);
     }  
 

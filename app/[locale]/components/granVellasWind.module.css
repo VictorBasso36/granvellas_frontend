@@ -5,7 +5,6 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding-bottom: 700px;
     background-size: cover;
     background-image: url('/bgwind.svg');
     border-bottom: 2px solid var(--suportColor);
@@ -14,8 +13,10 @@
 
 .mainContainer{
     width: 90%;
+    height: 100%;
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
     max-width: var(--max-width);
     flex-direction: column;
@@ -45,6 +46,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 400px;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 60px;

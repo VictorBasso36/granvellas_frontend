@@ -8,10 +8,12 @@ export default function Video() {
   const t = useTranslations('Index');
   return (
     <section className={styles.mainVideo}>
-        <div className={styles.videoButton}>
-            <Image src="/playbutton.svg" width={60} height={60} alt=''></Image>
-            <h5>Seu lugar ao <strong>paraíso</strong></h5>
-        </div>
+        <Link className={styles.MainButton} href={'/'} target='_blank'>         
+          <div className={styles.videoButton}>
+              <Image src="/playbutton.svg" width={60} height={60} alt=''></Image>
+              <h5>Seu lugar ao <strong>paraíso</strong></h5>
+          </div>
+        </Link>
     </section>
   )
 }

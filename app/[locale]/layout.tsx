@@ -49,7 +49,6 @@ export default async function LocaleLayout({
       icon: '/Logo.svg',
     },
   }
-
   return (
   <html lang={locale}>
     <meta name="robots" content="index, follow"></meta>
