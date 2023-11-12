@@ -107,4 +107,9 @@
         list-style: none;
         margin-bottom: 60px;
     }
+
+    .mainContainer ul{
+        list-style: none;
+        width: 100%;
+    }
 }

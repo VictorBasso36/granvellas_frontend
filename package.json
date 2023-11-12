@@ -11,12 +11,15 @@
   "dependencies": {
     "@apollo/client": "^3.8.6",
     "@apollo/server": "^4.9.4",
+    "from": "^0.1.7",
     "graphql": "^16.8.1",
+    "import": "^0.0.6",
     "negotiator": "^0.6.3",
     "next": "13.5.4",
     "next-intl": "^2.20.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
