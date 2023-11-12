@@ -8,7 +8,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import { Autoplay, Virtual } from 'swiper/modules';
-import SocialMidiaIcon from '../socialMidiaIcons';
 export default function Carrousel() {
   const t = useTranslations('Index');
   return (
