@@ -15,9 +15,9 @@ export default function MainBanner() {
               case 'paradise':
               case 'paraíso':
                 return '<strong>' + match + '</strong>';
-              case 'pedaço do':
-              case 'piece of':
-              case 'pedazo del':
+              case 'pedaço':
+              case 'piece':
+              case 'pedazo':
                 return '<span>' + match + '</span>';
               default:
                 return match;

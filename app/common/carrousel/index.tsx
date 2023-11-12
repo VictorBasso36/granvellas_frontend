@@ -37,7 +37,7 @@ export default function Carrousel() {
           </h3>
           <div className={styles.swiperHere}>
             <Swiper
-                spaceBetween={0}
+                spaceBetween={30}
                 slidesPerView={1}
                 centeredSlides={false}
                 loop={false}
@@ -50,27 +50,55 @@ export default function Carrousel() {
                 className={styles.swiperMain}
               >
                   <SwiperSlide key={1} className={styles.Slide}>
-                    carrousel
+                    <div className={styles.MyImage} style={{backgroundImage: `url('/CLUBE.webp')`}}>
+                      <div className={styles.mylegend}>
+                       <p>CLUBE COMPLETO COM CHURRASQUEIRA E PISCINA</p> 
+                       <div className={styles.backdrop}>
+                        </div>
+                      </div>
+                    </div>
                   
                   </SwiperSlide>
                   <SwiperSlide key={2} className={styles.Slide}>
-                    carrousel2
+                    <div className={styles.MyImage} style={{backgroundImage: `url('/CENTRAL0003.webp')`}}>
+                      <div className={styles.mylegend}>
+                       <p>{'Espaço aberto, arborizado e com lazer completo'.toLocaleUpperCase()}</p> 
+                            <div className={styles.backdrop}>
+                            </div>
+                      </div>
+                    </div>
                   
                   </SwiperSlide>
                   <SwiperSlide key={3} className={styles.Slide}>
-                    carrousel3
+                    <div className={styles.MyImage} style={{backgroundImage: `url('/CLUBE.webp')`}}>
+                      <div className={styles.mylegend}>
+                        <p>{'Lago interno com bar'.toLocaleUpperCase()}</p>
+                        <div className={styles.backdrop}>
+                        </div>
+                      </div>
+                    </div>
                   
                   </SwiperSlide>
                   <SwiperSlide key={4} className={styles.Slide}>
-                    carrousel4
+                    <div className={styles.MyImage} style={{backgroundImage: `url('/entrada.webp')`}}>
+                      <div className={styles.mylegend}>
+
+                        <p>{'Portaria 24hrs'.toLocaleUpperCase()}</p>
+                        <div className={styles.backdrop}>
+                        </div>
+                      </div>
+                    </div>
                   
                   </SwiperSlide>
+                  <div className="swiper-button-next"></div>
+                  <div className="swiper-button-prev"></div>
             </Swiper>
           </div>
           <br />
           <button>
             <p><span>{t('assessment.lastButton').toUpperCase()}{' '}</span> {t('assessment.lastButtonMain').toUpperCase()}</p>
           </button>
+          <br />
         </div>
       </div>
     </section>
