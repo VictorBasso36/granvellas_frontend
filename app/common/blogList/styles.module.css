@@ -60,10 +60,9 @@
 }
 
 .contentPrincipalPost p{
-    line-height: 110%;
     color: #6a6a6a;
-    font-size: 18px;
-    width: 75%;
+    font-size: 20px;
+    width: 70%;
     font-weight: normal;
 }
 
@@ -235,7 +234,7 @@
         align-items: center;
         margin-left: 0px;
         height: 100%;
-        scale: 80%;
+        scale: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;

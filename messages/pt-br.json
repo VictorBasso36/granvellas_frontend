@@ -14,6 +14,12 @@
       "Reserve": "Reserve a sua unidade"
     },
     "MainBanner": "Um pedaço no paraíso: Invista em Jericoacoara.",
+    "Carrousel": {
+      "portaria": "portaria 24hrs", 
+      "lago": "lago interno com bar",
+      "espaco": "espaço aberto, arborizado e com lazer completo",
+      "clube": "clube completo com churrasqueira e piscina"
+    },
     "assessment": {
       "mainTitle": "Um investimento único e com infraestrutura completa para você",
       "button": "adquira seu lote",
@@ -26,6 +32,8 @@
         "money2": "Entrada a partir de",
         "money3": "Parcelas mensais a partir de"
       },
+      "client1": "Empreendimento fantástico, sem falar da localização, bem pertinho da Lagoa do Paraíso",
+      "client2": "Empreendimento único na região, fiquei impressionado com a infraestrutura e a localização",
       "download": {
         "LoteJuri": "Lote juridicamente perfeito",
         "make": "faça o download",

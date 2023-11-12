@@ -37,7 +37,7 @@ export default function BlogList() {
           {
             larguraDaJanela >= 1024 && (
 
-              <div className={styles.mainPostImage} style={{backgroundImage: 'url("/istockphoto-1211311866-612x612.jpg")'}}>
+              <div className={styles.mainPostImage} style={{backgroundImage: 'url("/blog1.svg")'}}>
                 {/* img here */}
             
               </div>
@@ -50,7 +50,7 @@ export default function BlogList() {
             {
             larguraDaJanela < 1024 && (
 
-              <div className={styles.mainPostImage} style={{backgroundImage: 'url("/istockphoto-1211311866-612x612.jpg")'}}>
+              <div className={styles.mainPostImage} style={{backgroundImage: 'url("/blog2.svg")'}}>
                 {/* img here */}
             
               </div>
@@ -71,7 +71,7 @@ export default function BlogList() {
         </div>
         <div className={styles.othersPosts}>
           <div className={styles.MainCard}>
-            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/istockphoto-1211311866-612x612.jpg")'}}>
+            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/blog2.svg")'}}>
                 {/* img here */}
             
             </div>
@@ -85,7 +85,7 @@ export default function BlogList() {
             </div>
           </div>
           <div className={styles.MainCard}>
-            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/istockphoto-1211311866-612x612.jpg")'}}>
+            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/blog3.svg")'}}>
                 {/* img here */}
             
             </div>
@@ -98,7 +98,7 @@ export default function BlogList() {
             </div>
           </div>
           <div className={styles.MainCard}>
-            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/istockphoto-1211311866-612x612.jpg")'}}>
+            <div className={styles.mainPostPost} style={{backgroundImage: 'url("/blog4.svg")'}}>
                 {/* img here */}
             
             </div>

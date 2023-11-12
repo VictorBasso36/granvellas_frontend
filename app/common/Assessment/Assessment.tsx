@@ -67,27 +67,25 @@ export default function Assessment() {
               >
           <SwiperSlide key={1} className={styles.Slide}>
           <div className={styles.mainCard}>
-            <div className={styles.PhotoHere}>
+            <div className={styles.PhotoHere} style={{backgroundImage: `url('/client.svg')`}}>
             </div>
             <div className={styles.descriptionHere}>            
               <p className={styles.title}><strong>Fernanda Alameda</strong></p>
-              <p className={styles.description}>descripttion here descripttion here descripttion here
-              descripttion here descripttion here descripttion here
-              descripttion here descripttion here descripttion here
+              <p className={styles.description}>
+              “{t('assessment.client1')}”
               </p>
             </div>
           </div>
           </SwiperSlide>
           <SwiperSlide key={2} className={styles.Slide}>
           <div className={styles.mainCard}>              
-            <div className={styles.PhotoHere}>
+            <div className={styles.PhotoHere} style={{backgroundImage: `url('/client2.svg')`}}>
             </div>
             <div className={styles.descriptionHere}>            
 
-              <p className={styles.title}><strong>Fernanda Alameda</strong></p>
-              <p className={styles.description}>descripttion here descripttion here descripttion here
-              descripttion here descripttion here descripttion here
-              descripttion here descripttion here descripttion here
+              <p className={styles.title}><strong>Samuel Vasconselos</strong></p>
+              <p className={styles.description}>
+                “{t('assessment.client2')}”
               </p>
             </div>
           </div>

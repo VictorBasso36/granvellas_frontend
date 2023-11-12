@@ -13,6 +13,12 @@
             "Reserve": "Reserve su unidad"
         },
         "MainBanner": "Un pedazo de paraíso: Invierta en Jericoacoara.",
+        "Carrousel": {
+          "portaria": "portero las 24 horas", 
+          "lago": "lago interno con bar",
+          "espaco": "espacio abierto, arbolado y con ocio completo",
+          "clube": "club completo con barbacoa y piscina"
+        },
         "assessment": {
             "mainTitle": "Una inversión única con infraestructura completa para ti",
             "button": "adquiere tu lote",
@@ -25,6 +31,8 @@
               "money2": "Pago inicial a partir de",
               "money3": "Cuotas mensuales a partir de"
             },
+            "client1": "Desarrollo fantástico, sin mencionar la ubicación, muy cerca de la Lagoa do Paraíso",
+            "client2": "Desarrollo único en la región, me impresionó la infraestructura y la ubicación",      
             "download": {
               "LoteJuri": "Lote legalmente perfecto",
               "make": "descargar",

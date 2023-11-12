@@ -13,6 +13,12 @@
       "Reserve": "Reserve your unit"
       },
     "MainBanner": "A piece of paradise: Invest in Jericoacoara.",
+    "Carrousel": {
+      "portaria": "24-hour concierge", 
+      "lago": "internal lake with bar",
+      "espaco": "open space, wooded, and with complete leisure",
+      "clube": "complete club with barbecue and pool"
+    },
     "assessment": {
       "mainTitle": "A unique investment with complete infrastructure for you",
       "button": "get your plot",
@@ -25,6 +31,8 @@
         "money2": "Down payment starting from",
         "money3": "Monthly installments starting from"
       },
+      "client1": "Fantastic development, not to mention the location, very close to Lagoa do Paraíso",
+      "client2": "Unique development in the region, I was impressed with the infrastructure and location",      
       "download": {
         "LoteJuri": "Legally perfect plot",
         "make": "download",

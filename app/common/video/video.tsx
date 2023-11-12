@@ -11,7 +11,16 @@ export default function Video() {
         <Link className={styles.MainButton} href={'/'} target='_blank'>         
           <div className={styles.videoButton}>
               <Image src="/playbutton.svg" width={60} height={60} alt=''></Image>
-              <h5>Seu lugar ao <strong>paraíso</strong></h5>
+              <h5 dangerouslySetInnerHTML={{ __html: t('TitleVideo').replace(/(paradise|paraíso)/g, (match) => {
+                switch (match) {
+                  case 'paradise':
+                  case 'paraíso':
+                    return '<strong>' + match + '</strong>';
+                  default:
+                    return match;
+                }
+              }) }}>
+              </h5>
           </div>
         </Link>
     </section>
