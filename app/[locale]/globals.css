@@ -12,7 +12,6 @@
   --kanit-font-family: '--kanit-font-family';
 }
 
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -26,6 +25,7 @@ body {
   font-family: var(--kanit-font-family);
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {

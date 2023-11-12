@@ -11,7 +11,7 @@ import { Autoplay, Virtual } from 'swiper/modules';
 export default function Carrousel() {
   const t = useTranslations('Index');
   return (
-    <section className={styles.widthThis}>
+    <section className={styles.widthThis} id="Jericoacora">
       <div className={styles.Container}>
         <div className={styles.ContainerLote}>
           <div className={styles.LoteImage}>

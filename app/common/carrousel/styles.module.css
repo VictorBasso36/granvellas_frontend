@@ -194,7 +194,7 @@
 @media screen and (min-width: 0px) and (max-width: 550px){
     .LoteImage{
         background-image: url('/bgProject.svg');
-        height:500px;
+        height:400px;
         background-position: center;
         background-size: cover;
         width: 100%;
@@ -204,7 +204,7 @@
         z-index: 10;
     }  
     .MyImage{
-        height: 500px;
+        height: 400px;
         display: flex;
         background-position: center;
         background-size: cover;
@@ -264,4 +264,22 @@
         font-weight: 300;
         width: 90%;
     }
+
+    .mylegend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        width: 100%;
+        border-top: 3px solid var(--suportColor);
+        min-height: 120px;
+        height: auto;
+        position: relative;
+    }
+
+    .mylegend p{
+        width: 90%;
+    }
+    
 }

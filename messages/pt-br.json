@@ -20,6 +20,17 @@
       "espaco": "espaço aberto, arborizado e com lazer completo",
       "clube": "clube completo com churrasqueira e piscina"
     },
+    "Wind":{
+      "title": "Conheça o Gran Vellas Wind, seu próximo sonho.",
+      "t1": "EMPREENDIMENTO COM",
+      "tt1": "450 LOTES",
+      "t2": "ESTRUTURA E LAZER",
+      "tt2": "COMPLETO",
+      "t3": "LOCALIZADO NA LAGOA",
+      "tt3": "DO PARAÍSO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur."
+  
+    },
     "assessment": {
       "mainTitle": "Um investimento único e com infraestrutura completa para você",
       "button": "adquira seu lote",

@@ -8,7 +8,7 @@ export default function Form() {
   const t = useTranslations('Index');
   return (
     <>
-    <section className={styles.mainSection}>
+    <section className={styles.mainSection} id="reserv">
         <div className={styles.containerMain}>
             <form action="">
               <h5>{t('Form.title')}{' '}<br></br><strong>{t('Form.titleMain')}</strong></h5>

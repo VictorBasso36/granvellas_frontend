@@ -11,7 +11,7 @@ export default function NavBar() {
     <nav className={styles.mainNavbar}>
       <ul className={styles.mainListNavBar}>
         <li className={styles.mainImageCommon}>
-          <Link href="/">
+          <Link href="#Emp">
             <p>{t('Navbar.Venture').toLocaleUpperCase()}</p>
           </Link>
         </li>
@@ -20,7 +20,7 @@ export default function NavBar() {
           </div>
         </li>
         <li className={styles.mainImageCommon}>
-          <Link href="/">
+          <Link href="#Jericoacora">
             <p>{t('Navbar.Jericoara').toLocaleUpperCase()}</p>
           </Link>
         </li>
@@ -32,7 +32,7 @@ export default function NavBar() {
           </Link>
         </li>
         <li className={styles.mainImageCommon}>
-          <Link href="/">
+          <Link href="#Invest">
             <p>{t('Navbar.Investment').toLocaleUpperCase()}</p>
           </Link>
         </li>
@@ -41,7 +41,7 @@ export default function NavBar() {
           </div>
         </li>
         <li className={styles.mainImageCommon}>
-          <Link href="/">
+          <Link href="#reserv">
             <p>{t('Navbar.Reserve').toLocaleUpperCase()}</p>
           </Link>
         </li>

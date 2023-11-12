@@ -31,7 +31,7 @@ export default function Assessment() {
     };
   }, []);
   return (
-    <section className={styles.MainSection}>
+    <section className={styles.MainSection} id="Invest">
       <div className={styles.containerMain}>
           <h4 dangerouslySetInnerHTML={{ __html: t('assessment.money.title').replace(/(facilitada|purchase|com incorporador|the developer|el desarrollador)/g, (match) => {
             switch (match) {

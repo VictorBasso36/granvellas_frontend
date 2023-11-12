@@ -13,6 +13,17 @@
       "Reserve": "Reserve your unit"
       },
     "MainBanner": "A piece of paradise: Invest in Jericoacoara.",
+    "Wind":{
+      "title": "Meet the Gran Vellas Wind, your next dream.",
+      "t1": "DEVELOPMENT WITH",
+      "tt1": "450 LOTS",
+      "t2": "COMPLETE STRUCTURE AND",
+      "tt2": "LEISURE",
+      "t3": "LOCATED AT PARAÍSO",
+      "tt3": "LAGOON",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur."
+  
+    },
     "Carrousel": {
       "portaria": "24-hour concierge", 
       "lago": "internal lake with bar",
