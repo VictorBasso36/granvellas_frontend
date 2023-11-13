@@ -21,8 +21,9 @@
       "tt2": "LEISURE",
       "t3": "LOCATED AT PARAÍSO",
       "tt3": "LAGOON",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur."
-  
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur.",
+      "new": "New contact!",
+      "sucess": "Contact sent successfully! We will get in touch soon. Feel free to submit new contacts!"
     },
     "Carrousel": {
       "portaria": "24-hour concierge", 

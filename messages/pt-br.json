@@ -59,7 +59,9 @@
       "Email": "E-mail",
       "Tel": "Telefone",
       "button": "Reserve",
-      "buttonMain": "seu lote em Jeri"
+      "buttonMain": "seu lote em Jeri",
+      "new": "Novo contato!",
+      "sucess": "Contato enviado com sucesso! Em breve entraremos em contato. Sinta-se à vontade para enviar novos contatos!"
     },
     "Footer": {
         "About": "Sobre",

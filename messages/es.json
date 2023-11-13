@@ -57,7 +57,10 @@
             "Email": "Correo electrónico",
             "Tel": "Teléfono",
             "button": "Reservar",
-            "buttonMain": "tu parcela en Jeri"
+            "buttonMain": "tu parcela en Jeri",
+            "new": "¡Nuevo contacto!",
+            "sucess": "¡Contacto enviado con éxito! Pronto nos pondremos en contacto. ¡Siéntase libre de enviar nuevos contactos!"
+    
         },
         "Footer": {
               "About": "Acerca de",
