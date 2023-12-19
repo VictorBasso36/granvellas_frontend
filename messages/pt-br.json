@@ -22,8 +22,8 @@
     },
     "Wind":{
       "title": "Conheça o Gran Vellas Wind, seu próximo sonho.",
-      "t1": "EMPREENDIMENTO COM",
-      "tt1": "450 LOTES",
+      "t1": "Área com mais de 11.000m² de lazer",
+      "tt1": "11.000m² de lazer",
       "t2": "ESTRUTURA E LAZER",
       "tt2": "COMPLETO",
       "t3": "LOCALIZADO NA LAGOA",
@@ -43,13 +43,13 @@
         "money2": "Entrada a partir de",
         "money3": "Parcelas mensais a partir de"
       },
-      "client1": "Empreendimento fantástico, sem falar da localização, bem pertinho da Lagoa do Paraíso",
-      "client2": "Empreendimento único na região, fiquei impressionado com a infraestrutura e a localização",
+      "client1": "Empreendimento maravilhoso, perto de diversos pontos turísticos e nós estamos muito felizes pela aquisição. Desde o tempo que a gente adquiriu já houve uma valorização.",
+      "client2": "Conheci o Gran Vellas pela internet, eu fiquei super seguro, eu vi que era um investimento muito maravilhoso, num paraíso que é Jericoacoara... Eles foram muito atenciosos, aprovei tudo e é claro, fiz o investimento da minha vida.",
       "download": {
-        "LoteJuri": "Lote juridicamente perfeito",
+        "LoteJuri": "Segurança e transparência no seu Investimento",
         "make": "faça o download",
-        "p1": "do registro",
-        "p2": "do alvará"
+        "p1": "do Registro de Imóvel",
+        "p2": "do Alvará de Construção"
       }
     },
     "Form": {
@@ -77,8 +77,28 @@
       "ptwo": "Reservamos o direito de alterar qualquer informação ou valor disponibilizado para os lotes ofertados e seus acessórios (condomínio, IPTU, etc.), tanto em nosso site quanto em qualquer outro meio de comunicação ou divulgação de ofertas sem aviso prévio.",
       "ptree": "Também nos reservamos o direito de atender apenas os clientes que se identificarem com nome completo, telefone fixo ou móvel e e-mail, e a propriedade seja exclusivamente para seu uso e interesse. Clientes que se recusarem a fornecer tais informações, infelizmente, não poderão receber assistência, seja para venda ou para diversas dúvidas, não importando o quão simples possam ser; Clientes que nos contatarem solicitando informações para terceiros devem fornecer, além de seus próprios dados, os dados do terceiro interessado, a fim de evitar serviço duplicado e falhas de comunicação."
     },
-
-    "TitleVideo": "Seu lugar ao paraíso"
+    "TitleVideo": "Seu lugar ao paraíso",
+    "blogPosting": [{
+      "title": "Jericoacoara:",
+      "titlespan": "O paraíso cearense",
+      "description": "Considerada uma das praias mais visitadas do mundo, Jericoacoara é destino crescente de empreendimentos nacionais e internacionais. O paraíso cearense é o local escolhido para o primeiro lançamento da Gran Vellas Urbanismo no mercado imobiliário." 
+    },
+    {
+      "title": "Ceará deve receber mais de",
+      "titlespan": "130 mil turistas no feriado de Carnaval",
+      "description": "As expectativas da Secretaria do Turismo do Ceará (Setur) são positivas. A estimativa é que o Ceará receba 133 mil viajantes no feriado, um aumento de 18,8% em relação aos 112 mil recebidos no ano passado."
+    },
+    {
+      "title": "Gran Vellas Wind, em Jericoacoara se encontrará a apenas",
+      "titlespan": "5 minutos de um dos maiores pontos turísticos da cidade: o Alchymist Beach Club.",
+      "description": "Localizado na Lagoa do Paraíso a somente 18km de Jericoacoara o Alchymist Beach Club é mais uma das propriedades do grupo Alchymist ao redor do mundo."
+    },
+    {
+      "title": "Conheça a melhor vila de Jericoacoara,",
+      "titlespan": "próxima ao Gran Vellas Wind em Jeri!",
+      "description": "A vila, localizada a cerca de 300 km de Fortaleza, mais precisamente na cidade de Jijoca de Jericoacoara, é um lugar pacato, com ruas de areia e cenários bucólicos, ideais para quem quer descansar e renovar as energias!" 
+    }]
+  
 
   
     

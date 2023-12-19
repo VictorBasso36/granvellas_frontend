@@ -52,7 +52,7 @@ export default function Carrousel() {
                   <SwiperSlide key={1} className={styles.Slide}>
                     <div className={styles.MyImage} style={{backgroundImage: `url('/CLUBE.webp')`}}>
                       <div className={styles.mylegend}>
-                       <p>{t('Carrousel.clube').toLocaleUpperCase()}</p> 
+                       <p style={{lineHeight: '100%'}}>{t('Carrousel.clube').toLocaleUpperCase()}</p> 
                        <div className={styles.backdrop}>
                         </div>
                       </div>
@@ -62,7 +62,7 @@ export default function Carrousel() {
                   <SwiperSlide key={2} className={styles.Slide}>
                     <div className={styles.MyImage} style={{backgroundImage: `url('/CENTRAL0003.webp')`}}>
                       <div className={styles.mylegend}>
-                       <p>{t('Carrousel.espaco').toLocaleUpperCase()}</p> 
+                       <p style={{lineHeight: '100%'}}>{t('Carrousel.espaco').toLocaleUpperCase()}</p> 
                             <div className={styles.backdrop}>
                             </div>
                       </div>
@@ -72,7 +72,7 @@ export default function Carrousel() {
                   <SwiperSlide key={3} className={styles.Slide}>
                     <div className={styles.MyImage} style={{backgroundImage: `url('/CLUBE.webp')`}}>
                       <div className={styles.mylegend}>
-                        <p>{t('Carrousel.lago').toLocaleUpperCase()}</p>
+                        <p style={{lineHeight: '100%'}}>{t('Carrousel.lago').toLocaleUpperCase()}</p>
                         <div className={styles.backdrop}>
                         </div>
                       </div>
@@ -83,7 +83,7 @@ export default function Carrousel() {
                     <div className={styles.MyImage} style={{backgroundImage: `url('/entrada.webp')`}}>
                       <div className={styles.mylegend}>
 
-                        <p>{t('Carrousel.portaria').toLocaleUpperCase()}</p>
+                        <p style={{lineHeight: '100%'}}>{t('Carrousel.portaria').toLocaleUpperCase()}</p>
                         <div className={styles.backdrop}>
                         </div>
                       </div>

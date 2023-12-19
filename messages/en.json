@@ -15,8 +15,8 @@
     "MainBanner": "A piece of paradise: Invest in Jericoacoara.",
     "Wind":{
       "title": "Meet the Gran Vellas Wind, your next dream.",
-      "t1": "DEVELOPMENT WITH",
-      "tt1": "450 LOTS",
+      "t1": "AREA WITH MORE THAN",
+      "tt1": "11,000m² OF LEISURE",
       "t2": "COMPLETE STRUCTURE AND",
       "tt2": "LEISURE",
       "t3": "LOCATED AT PARAÍSO",
@@ -43,14 +43,15 @@
         "money2": "Down payment starting from",
         "money3": "Monthly installments starting from"
       },
-      "client1": "Fantastic development, not to mention the location, very close to Lagoa do Paraíso",
-      "client2": "Unique development in the region, I was impressed with the infrastructure and location",      
+      "client1": "Wonderful development, close to several tourist spots and we are very happy with the acquisition. Since the time we acquired it, there has been an appreciation.",
+      "client2": "I met Gran Vellas on the internet, I felt super safe, I saw that it was a wonderful investment, in a paradise that is Jericoacoara... They were very attentive, I approved everything and of course, I made the investment of my life.",      
       "download": {
-        "LoteJuri": "Legally perfect plot",
+        "LoteJuri": "Security and transparency in your Investment",
         "make": "download",
-        "p1": "the record",
-        "p2": "the permit"
+        "p1": "of the Property Registration",
+        "p2": "of the Construction Permit"
       }
+
     },
     "Form": {
       "title": "Take the next step",
@@ -74,7 +75,22 @@
       "ptwo": "We reserve the right to change any information or value provided for the offered lots and their accessories (condominium, property tax, etc.), both on our website and in any other means of communication or promotion of offers without prior notice.",
       "ptree": "We also reserve the right to only assist those customers who identify themselves with full name, landline or mobile phone, and email, and the property is exclusively for their use and interest. Customers who refuse to provide such information, unfortunately, will not be able to receive assistance, whether for sale or various questions, no matter how simple they may be; Customers who contact us requesting information for third parties must provide, in addition to their own data, the data of the third party interested in order to avoid duplicate service and communication failures."
     },
-    "TitleVideo": "Your place in paradise."
+    "TitleVideo": "Your place in paradise.",
+    "blogPosting": [{
+      "title": "Ceará is expected to receive more than",
+      "titlespan": "130 thousand tourists on Carnival holiday",
+      "description": "The expectations of the Ceará Tourism Secretariat (Setur) are positive. The estimate is that Ceará will receive 133 thousand travelers on the holiday, an increase of 18.8% compared to the 112 thousand received last year."
+    },
+    {
+      "title": "Gran Vellas Wind, in Jericoacoara will be just",
+      "titlespan": "5 minutes from one of the biggest tourist spots in the city: the Alchymist Beach Club.",
+      "description": "Located in Lagoa do Paraíso, only 18km from Jericoacoara, the Alchymist Beach Club is another one of the Alchymist group's properties around the world."
+    },
+    {
+      "title": "Get to know the best village of Jericoacoara,",
+      "titlespan": "close to Gran Vellas Wind in Jeri!",
+      "description": "The village, located about 300 km from Fortaleza, more precisely in the city of Jijoca de Jericoacoara, is a quiet place, with sandy streets and bucolic scenarios, ideal for those who want to rest and renew their energies!" 
+    }]
 
     
   }

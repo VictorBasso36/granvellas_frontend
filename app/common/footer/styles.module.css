@@ -79,6 +79,21 @@
     background: linear-gradient(90deg, rgba(172,110,13,1) 30%, rgba(205,158,53,1) 64%, rgba(172,110,13,1) 95%); 
 }
 
+.MainLogoStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(49,57,78);
+    background: linear-gradient(360deg, rgba(49,57,78,1) 25%, rgba(53,88,112,1) 90%);
+}
+.MainLogoStyle img{
+    width: 280px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
 @media screen and (min-width: 0px) and (max-width: 1024px){
     .mainFooter{
         width: 100%;

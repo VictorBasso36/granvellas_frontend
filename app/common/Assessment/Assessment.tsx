@@ -70,7 +70,7 @@ export default function Assessment() {
             <div className={styles.PhotoHere} style={{backgroundImage: `url('/client.svg')`}}>
             </div>
             <div className={styles.descriptionHere}>            
-              <p className={styles.title}><strong>Fernanda Alameda</strong></p>
+              <p className={styles.title}><strong>Luziano Almeida (GO)</strong></p>
               <p className={styles.description}>
               “{t('assessment.client1')}”
               </p>
@@ -83,7 +83,7 @@ export default function Assessment() {
             </div>
             <div className={styles.descriptionHere}>            
 
-              <p className={styles.title}><strong>Samuel Vasconselos</strong></p>
+              <p className={styles.title}><strong>Lúcio</strong></p>
               <p className={styles.description}>
                 “{t('assessment.client2')}”
               </p>
@@ -95,15 +95,15 @@ export default function Assessment() {
       </div>
       <div className={styles.downloadHere}>
         <h4 dangerouslySetInnerHTML={{ __html: t('assessment.download.LoteJuri')
-        .replace(/(legalmente|juridicamente|perfect|perfecto|plot|perfeito)/g, (match) => {
+        .replace(/(transparência|transparencia|transparency|Investimento|Inversión|Investment)/g, (match) => {
             switch (match) {
-              case 'legalmente':
-              case 'juridicamente':
-              case 'perfect':
+              case 'transparência':
+              case 'transparencia':
+              case 'transparency':
                 return '<span>' + match + '</span>';
-              case 'perfecto':
-              case 'plot':
-              case 'perfeito':
+              case 'Investimento':
+              case 'Inversión':
+              case 'Investment':
                 return '<strong>' + match + '</strong>';
               default:
                 return match;
@@ -111,7 +111,7 @@ export default function Assessment() {
           }) }}>
           </h4>
         <div className={styles.buttonHere}>
-          <Link href="/">
+          <Link href="/Alvará de Construção.pdf" target='_blank'>
             <button className={styles.MainButton}>
               <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p1').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>
@@ -119,7 +119,7 @@ export default function Assessment() {
               </Image>
             </button>
           </Link>
-          <Link href="/">
+          <Link href="/CERTIDAO DA MATRICULA 1142 - Atualizada.pdf" target='_blank'>
             <button className={styles.MainButton}>
             <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p2').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>

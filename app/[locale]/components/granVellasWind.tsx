@@ -23,15 +23,15 @@ export default function GranVellasWind() {
               }) }}>
               </h2>
             
-              <p className={styles.mainContainerText}>{t('Wind.description')}</p>
+              {/* <p className={styles.mainContainerText}>{t('Wind.description')}</p> */}
               <div className={styles.mainContainerCards}>
-                <div className={styles.promoCard}>
-                  <p>{t('Wind.t1')}</p>
-                  <p><span>{t('Wind.tt1')}</span></p>
-                </div>
                 <div className={styles.promoCard}>
                   <p>{t('Wind.t2')}</p>
                   <p><span>{t('Wind.tt2')}</span></p>
+                </div>
+                <div className={styles.promoCard}>
+                  <p>{t('Wind.t1')}</p>
+                  <p style={{lineHeight: '100%'}}><span>{t('Wind.tt1')}</span></p>
                 </div>
                 <div className={styles.promoCard}>
                   <p>{t('Wind.t3')}</p>

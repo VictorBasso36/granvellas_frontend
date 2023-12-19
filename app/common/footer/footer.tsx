@@ -45,11 +45,11 @@ export default function Footer() {
               {t('Footer.Talk')}
             </li>
             <li>            
-              <Link href="/"  style={{display: "flex", alignItems: "center"}}>
+              <Link href="tel:+111992088836"  style={{display: "flex", alignItems: "center"}}>
                 <Image src="/tel.svg" height={15} width={15} alt="Tel Gran Vellas Urbanismo">
 
                 </Image>
-                <p style={{marginLeft: "10px", fontSize: "16px"}}>(85) 98174-9319</p>
+                <p style={{marginLeft: "10px", fontSize: "16px"}}>(11) 99208-8836</p>
               </Link>
             </li>
             <li>
@@ -84,10 +84,17 @@ export default function Footer() {
           <p>{t('FooterNotes.ptree')}</p>
         </div>
       </div>
-
+      
     </footer>
-    <div className={styles.divDetail}>
+    <div className={styles.MainLogoStyle}>
+      <Link href={'https://www.luziac.com.br/'} title="Luziac Marketing">
+        <Image src="/mainLogo.webp" alt='Luziac Marketing' width={220} height={80}>
 
+        </Image>
+      </Link>
+    </div>
+    <div className={styles.divDetail}>
+      
     </div>
     </>
   )

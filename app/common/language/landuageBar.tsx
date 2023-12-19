@@ -77,11 +77,11 @@ export default function LanguageBar() {
         <div className={styles.TelDiv}>
           <div className={styles.MainDiv}> 
             <div className={styles.crashLater}>
-              <Link href="/">
+              <Link href="tel:+111992088836">
                 <Image src="/tel.svg" height={15} width={15} alt="Tel Gran Vellas Urbanismo">
 
                 </Image>
-                <p>(85) 98174-9319</p>
+                <p>(11) 99208-8836</p>
               </Link>
               <div className={styles.Separated}>
 
