@@ -35,7 +35,7 @@ export default function ModalLead() {
       e.preventDefault();
       sucess && null
       try {
-        const response = await fetch('https://www.jerigranvellas.com.br/pages/api/email', {
+        const response = await fetch('https://www.jerigranvellas.com.br/pt-br/pages/api/email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
