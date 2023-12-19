@@ -77,6 +77,7 @@ export default async function LocaleLayout({
 
     <Script
     strategy="afterInteractive"
+    id="fb-pixel"
     dangerouslySetInnerHTML={{ __html: `
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -121,6 +122,7 @@ export default async function LocaleLayout({
       />
       <Script
       strategy="afterInteractive"
+      id="fb-pixel"
       dangerouslySetInnerHTML={{ __html: `
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
