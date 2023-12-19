@@ -4,6 +4,7 @@ import './globals.css'
 import { Young_Serif, Kanit } from 'next/font/google'
 import GraphQLProvider from '../lib/provider';
 import { Metadata } from 'next';
+import Image from 'next/image';
 import {createTranslator} from 'next-intl';
 import Script from 'next/script';
 const young_Serif = Young_Serif({ subsets: ['latin-ext'], weight: ['400'], variable: '--young-serif-font-family'})
@@ -76,6 +77,7 @@ export default async function LocaleLayout({
 
     <Script
     strategy="afterInteractive"
+    id="fb-pixel"
     dangerouslySetInnerHTML={{ __html: `
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -120,6 +122,7 @@ export default async function LocaleLayout({
       />
       <Script
       strategy="afterInteractive"
+      id="fb-pixel"
       dangerouslySetInnerHTML={{ __html: `
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -134,8 +137,8 @@ export default async function LocaleLayout({
         `}}>
       </Script>
       <noscript>
-        <img height="1" width="1" style={{display:"none"}} 
-            src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+        <Image height="1" width="1" style={{ display: "none" }}
+          src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1" alt={''}/>
       </noscript>
         <GraphQLProvider>
           <NextIntlClientProvider locale={locale} messages={messages}>
