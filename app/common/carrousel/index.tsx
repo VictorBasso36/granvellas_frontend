@@ -8,15 +8,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import { Autoplay, Virtual } from 'swiper/modules';
+import { useOpen } from '@/app/[locale]/providerModalConvert';
 export default function Carrousel() {
   const t = useTranslations('Index');
+  const { open, setOpen } = useOpen()
   return (
     <section className={styles.widthThis} id="Jericoacora">
       <div className={styles.Container}>
         <div className={styles.ContainerLote}>
           <div className={styles.LoteImage}>
           </div>
-          <button>
+          <button onClick={() => setOpen('whatsapp')}>
             <p><span>{t('assessment.button').toUpperCase()}{' '}</span> {t('assessment.buttonMain').toUpperCase()}</p>
           </button>
           <h3 dangerouslySetInnerHTML={{ __html: t('assessment.mainTitle')
@@ -95,7 +97,7 @@ export default function Carrousel() {
             </Swiper>
           </div>
           <br />
-          <button>
+          <button onClick={() => setOpen('whatsapp')}>
             <p><span>{t('assessment.lastButton').toUpperCase()}{' '}</span> {t('assessment.lastButtonMain').toUpperCase()}</p>
           </button>
           <br />

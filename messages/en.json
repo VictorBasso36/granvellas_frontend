@@ -21,9 +21,7 @@
       "tt2": "LEISURE",
       "t3": "LOCATED AT PARAÍSO",
       "tt3": "LAGOON",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur.",
-      "new": "New contact!",
-      "sucess": "Contact sent successfully! We will get in touch soon. Feel free to submit new contacts!"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus. Bibendum est ultricies integer quis auctor elit sed. Magna sit amet purus gravida quis blandit turpis cursus in. Ipsum dolor sit amet consectetur."
     },
     "Carrousel": {
       "portaria": "24-hour concierge", 
@@ -60,7 +58,9 @@
       "Email": "Email",
       "Tel": "Phone",
       "button": "Reserve",
-      "buttonMain": "your plot in Jeri"
+      "buttonMain": "your plot in Jeri",
+      "new": "New contact!",
+      "sucess": "Contact sent successfully! We will get in touch soon. Feel free to submit new contacts!"
     },
     "Footer": {
       "About": "About",
@@ -76,21 +76,28 @@
       "ptree": "We also reserve the right to only assist those customers who identify themselves with full name, landline or mobile phone, and email, and the property is exclusively for their use and interest. Customers who refuse to provide such information, unfortunately, will not be able to receive assistance, whether for sale or various questions, no matter how simple they may be; Customers who contact us requesting information for third parties must provide, in addition to their own data, the data of the third party interested in order to avoid duplicate service and communication failures."
     },
     "TitleVideo": "Your place in paradise.",
-    "blogPosting": [{
+    "blogPosting1": {
+      "title": "Jericoacoara:",
+      "titlespan": "The Ceará Paradise",
+      "description": "Considered one of the most visited beaches in the world, Jericoacoara is a growing destination for national and international ventures. The Ceará paradise is the chosen location for the first launch of Gran Vellas Urbanismo in the real estate market."
+    },
+    "blogPosting2": {
       "title": "Ceará is expected to receive more than",
       "titlespan": "130 thousand tourists on Carnival holiday",
       "description": "The expectations of the Ceará Tourism Secretariat (Setur) are positive. The estimate is that Ceará will receive 133 thousand travelers on the holiday, an increase of 18.8% compared to the 112 thousand received last year."
     },
+    "blogPosting3":
     {
       "title": "Gran Vellas Wind, in Jericoacoara will be just",
       "titlespan": "5 minutes from one of the biggest tourist spots in the city: the Alchymist Beach Club.",
       "description": "Located in Lagoa do Paraíso, only 18km from Jericoacoara, the Alchymist Beach Club is another one of the Alchymist group's properties around the world."
     },
+    "blogPosting4":
     {
       "title": "Get to know the best village of Jericoacoara,",
       "titlespan": "close to Gran Vellas Wind in Jeri!",
       "description": "The village, located about 300 km from Fortaleza, more precisely in the city of Jijoca de Jericoacoara, is a quiet place, with sandy streets and bucolic scenarios, ideal for those who want to rest and renew their energies!" 
-    }]
+    }
 
     
   }

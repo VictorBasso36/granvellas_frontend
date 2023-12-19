@@ -5,10 +5,11 @@ import {useTranslations} from 'next-intl';
 import styles from './styles.module.css'
 import { url } from 'inspector';
 import { useEffect, useState } from 'react';
+import { useOpen } from '@/app/[locale]/providerModalConvert';
 
 export default function BlogList() {
   const t = useTranslations('Index');
-
+  const { open, setOpen } = useOpen()
 
   const [larguraDaJanela, setLarguraDaJanela] = useState<number>(0);
 
@@ -29,7 +30,6 @@ export default function BlogList() {
     };
   }, []);
 
-  console.log(larguraDaJanela)
   return (
     <section className={styles.mainSection}>
       <div className={styles.mainSectionContainer}>
@@ -45,7 +45,7 @@ export default function BlogList() {
 
           }
           <div className={styles.contentPrincipalPost}>
-            <h4><strong>Jericoacoara:<br /></strong>O paraíso cearense</h4>
+            <h4><strong>{t('blogPosting1.title')}<br /></strong>{t('blogPosting1.titlespan')}</h4>
             <br />
             {
             larguraDaJanela < 1024 && (
@@ -57,9 +57,9 @@ export default function BlogList() {
             )
 
           }
-            <p>Considerada uma das praias mais visitadas do mundo, Jericoacoara é destino crescente de empreendimentos nacionais e internacionais. O paraíso cearense é o local escolhido para o primeiro lançamento da Gran Vellas Urbanismo no mercado imobiliário.</p>
+            <p>{t('blogPosting1.description')}</p>
               <br />
-              <button>
+              <button onClick={() => setOpen('whatsapp')}>
                 <p><span>{t('Form.button').toUpperCase()}{' '}</span> {t('Form.buttonMain').toUpperCase()}</p>
                 <div className={styles.DetailButton}>
                   <Image src={'/arrow.svg'} alt='Reserva jeri lote' height={25} width={25}>
@@ -76,11 +76,10 @@ export default function BlogList() {
             
             </div>
             <div className={styles.mainContent}>
-              <p className={styles.cardTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor.</strong></p>
+              <p className={styles.cardTitle}>{t('blogPosting2.title')} <strong>{t('blogPosting2.titlespan')}</strong></p>
               <br />
               <p className={styles.mainDescription}>
-                As expectativas da Secretaria do Turismo do Ceará (Setur) são positivas. A estimativa é que o Ceará receba 133 mil viajantes 
-                no feriado, um aumento de 18,8% em relação aos 112 mil recebidos no ano passado.
+              {t('blogPosting2.description')}
               </p>
             </div>
           </div>
@@ -90,10 +89,10 @@ export default function BlogList() {
             
             </div>
             <div className={styles.mainContent}>
-              <p className={styles.cardTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor.</strong></p>
+              <p className={styles.cardTitle}>{t('blogPosting3.title')} <strong>{t('blogPosting3.titlespan')}</strong></p>
               <br />
               <p className={styles.mainDescription}>
-                Localizado na Lagoa do Paraíso a somente 18km de Jericoacoara o Alchymist Beach Club é mais uma das propriedades  do grupo Alchymist ao redor do mundo. 
+                {t('blogPosting3.description')}
               </p>
             </div>
           </div>
@@ -103,10 +102,10 @@ export default function BlogList() {
             
             </div>
             <div className={styles.mainContent}>
-              <p className={styles.cardTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor.</strong></p>
+              <p className={styles.cardTitle}><strong>{t('blogPosting4.title')}</strong>{' '}  {t('blogPosting4.titlespan')}</p>
               <br />
               <p className={styles.mainDescription}>
-                A vila, localizada a cerca de 300 km de Fortaleza, mais precisamente na cidade de Jijoca de Jericoacoara, é um lugar pacato, com ruas de areia e cenários bucólicos, ideais para quem quer descansar e renovar as energias!
+                {t('blogPosting4.description')}
               </p>
             </div>
           </div>

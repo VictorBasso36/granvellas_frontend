@@ -60,7 +60,7 @@
       "Tel": "Telefone",
       "button": "Reserve",
       "buttonMain": "seu lote em Jeri",
-      "new": "Novo contato!",
+      "new": "Enviar mensagem",
       "sucess": "Contato enviado com sucesso! Em breve entraremos em contato. Sinta-se à vontade para enviar novos contatos!"
     },
     "Footer": {
@@ -78,26 +78,29 @@
       "ptree": "Também nos reservamos o direito de atender apenas os clientes que se identificarem com nome completo, telefone fixo ou móvel e e-mail, e a propriedade seja exclusivamente para seu uso e interesse. Clientes que se recusarem a fornecer tais informações, infelizmente, não poderão receber assistência, seja para venda ou para diversas dúvidas, não importando o quão simples possam ser; Clientes que nos contatarem solicitando informações para terceiros devem fornecer, além de seus próprios dados, os dados do terceiro interessado, a fim de evitar serviço duplicado e falhas de comunicação."
     },
     "TitleVideo": "Seu lugar ao paraíso",
-    "blogPosting": [{
+    "blogPosting1": {
       "title": "Jericoacoara:",
       "titlespan": "O paraíso cearense",
       "description": "Considerada uma das praias mais visitadas do mundo, Jericoacoara é destino crescente de empreendimentos nacionais e internacionais. O paraíso cearense é o local escolhido para o primeiro lançamento da Gran Vellas Urbanismo no mercado imobiliário." 
     },
+    "blogPosting2":
     {
       "title": "Ceará deve receber mais de",
       "titlespan": "130 mil turistas no feriado de Carnaval",
       "description": "As expectativas da Secretaria do Turismo do Ceará (Setur) são positivas. A estimativa é que o Ceará receba 133 mil viajantes no feriado, um aumento de 18,8% em relação aos 112 mil recebidos no ano passado."
     },
+    "blogPosting3":
     {
       "title": "Gran Vellas Wind, em Jericoacoara se encontrará a apenas",
       "titlespan": "5 minutos de um dos maiores pontos turísticos da cidade: o Alchymist Beach Club.",
       "description": "Localizado na Lagoa do Paraíso a somente 18km de Jericoacoara o Alchymist Beach Club é mais uma das propriedades do grupo Alchymist ao redor do mundo."
     },
+    "blogPosting4":
     {
       "title": "Conheça a melhor vila de Jericoacoara,",
       "titlespan": "próxima ao Gran Vellas Wind em Jeri!",
       "description": "A vila, localizada a cerca de 300 km de Fortaleza, mais precisamente na cidade de Jijoca de Jericoacoara, é um lugar pacato, com ruas de areia e cenários bucólicos, ideais para quem quer descansar e renovar as energias!" 
-    }]
+    }
   
 
   

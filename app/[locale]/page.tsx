@@ -15,6 +15,8 @@ import { Metadata } from 'next';
 import styles from './page.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
+import { useOpen } from './providerModalConvert';
+import ModalLead from './modal';
 
 export default function Index() {
   const t = useTranslations('Index');
@@ -31,15 +33,18 @@ export default function Index() {
       icon: '/Logo.svg',
     },
   }
+
+  const { open, setOpen } = useOpen()
   return (
     <>
-    <Link href='/'>
-      <div className={styles.whatsapp}>
+
+      <div className={styles.whatsapp} onClick={() => setOpen('whatsapp')}>
         <Image src='/whatsapp.svg' alt='whatsapp gran vellas' width={45} height={45}>
 
         </Image>
       </div>
-    </Link>
+
+
     <LanguageBar />
     <NavBar />
     <MainBanner />
@@ -50,6 +55,7 @@ export default function Index() {
     <Video />
     <Form />
     <Footer />
+    <ModalLead />
     </>
     );
 }
