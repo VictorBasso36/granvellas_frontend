@@ -111,7 +111,7 @@ export default function Assessment() {
           }) }}>
           </h4>
         <div className={styles.buttonHere}>
-          <Link href="/Alvará de Construção.pdf" target='_blank'>
+          <Link href="/CERTIDAO DA MATRICULA 1142 - Atualizada.pdf" target='_blank'>
             <button className={styles.MainButton}>
               <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p1').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>
@@ -119,7 +119,7 @@ export default function Assessment() {
               </Image>
             </button>
           </Link>
-          <Link href="/CERTIDAO DA MATRICULA 1142 - Atualizada.pdf" target='_blank'>
+          <Link href="/Alvará de Construção.pdf" target='_blank'>
             <button className={styles.MainButton}>
             <p>{t('assessment.download.make').toUpperCase()}{' '}<span>{t('assessment.download.p2').toUpperCase()}</span></p>
               <Image src="arrow.svg" alt='Lote gran vellas detalhes juridicos - registro' width={20} height={20}>

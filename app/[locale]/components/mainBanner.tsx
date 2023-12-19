@@ -2,8 +2,11 @@
 import Link from 'next/link';
 import styles from './mainBanner.module.css'
 import { useTranslations } from 'next-intl';
+import { useOpen } from '../providerModalConvert';
 
 export default function MainBanner() {
+  
+    const { open, setOpen } = useOpen()
     const t = useTranslations('Index');
 
     return (
@@ -26,8 +29,8 @@ export default function MainBanner() {
           </h1>
 
             <br />
-            <Link href="/">
-              <button className={styles.MainButton}>
+            
+              <button className={styles.MainButton} onClick={() => setOpen('whatsapp')}>
               <p
                 dangerouslySetInnerHTML={{
                   __html: t('Navbar.Reserve').toLocaleUpperCase().replace(/(unidade|UNIDADE|UNIT|unit|UNIDAD|unidad)/g, '<span>$1</span>')
@@ -35,7 +38,7 @@ export default function MainBanner() {
               ></p>
 
               </button>
-            </Link>
+        
           </div>
         </main>
       </>
