@@ -76,7 +76,8 @@ export default async function LocaleLayout({
   }
   return (
   <html lang={locale}>
-    <noscript>
+      <Script id="script-rd" type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/1c42c14d-5c2e-4bf9-84f3-24a07c030805-loader.js" ></Script>
+      <noscript>
         <iframe
           src={`https://www.googletagmanager.com/ns.html?id='GTM-TS6PB2TC'`}
           height="0"
