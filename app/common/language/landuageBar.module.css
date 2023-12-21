@@ -211,6 +211,26 @@
     opacity: 0.6;
 }
 
+.tel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tel img{
+    margin-left: 15px;
+}
+
+.tel p{
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.tel p:hover{
+    margin-left: 10px;
+    color: var(--suportColor);
+}
+
 @media screen and (min-width: 280px) and (max-width: 1024px){
     .maainLanguageBar{
         width: 100%;

@@ -67,7 +67,7 @@ export default function Assessment() {
               >
           <SwiperSlide key={1} className={styles.Slide}>
           <div className={styles.mainCard}>
-            <div className={styles.PhotoHere} style={{backgroundImage: `url('/client.svg')`}}>
+            <div className={styles.PhotoHere} style={{backgroundImage: `url('/luciano.jpeg')`}}>
             </div>
             <div className={styles.descriptionHere}>            
               <p className={styles.title}><strong>Luziano Almeida (GO)</strong></p>
@@ -79,7 +79,7 @@ export default function Assessment() {
           </SwiperSlide>
           <SwiperSlide key={2} className={styles.Slide}>
           <div className={styles.mainCard}>              
-            <div className={styles.PhotoHere} style={{backgroundImage: `url('/client2.svg')`}}>
+            <div className={styles.PhotoHere} style={{backgroundImage: `url('/client2.PNG')`}}>
             </div>
             <div className={styles.descriptionHere}>            
 
