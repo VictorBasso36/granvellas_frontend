@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 import Link from 'next/link';
 import styles from './landuageBar.module.css';
 import {useTranslations} from 'next-intl';
+import { useOpen } from '@/app/[locale]/providerModalConvert';
 
 export default function LanguageBar() {
   const [locale, setLocale] = useState("en-US");
@@ -31,6 +32,8 @@ export default function LanguageBar() {
     }
   }, [menu]);
   const t = useTranslations('Index');
+
+  const { open, setOpen } = useOpen()
   return (
     <>
     { menu &&
@@ -77,12 +80,12 @@ export default function LanguageBar() {
         <div className={styles.TelDiv}>
           <div className={styles.MainDiv}> 
             <div className={styles.crashLater}>
-              <Link href="tel:+111992088836">
+              <div className={styles.tel} onClick={() => setOpen('whatsapp')}>
                 <Image src="/tel.svg" height={15} width={15} alt="Tel Gran Vellas Urbanismo">
 
                 </Image>
                 <p>(11) 99208-8836</p>
-              </Link>
+              </div>
               <div className={styles.Separated}>
 
               </div>
