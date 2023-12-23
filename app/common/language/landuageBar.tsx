@@ -90,7 +90,7 @@ export default function LanguageBar() {
 
               </div>
               <div className={styles.SocialMidia}>
-                <Link href="/">
+                {/* <Link href="/">
                   <Image src="/instagram.svg" className={styles.firstSocial} height={15} width={15} alt="Instagram Gran Vellas Urbanismo"></Image>
                 </Link>
                 <Link href="/">
@@ -98,7 +98,7 @@ export default function LanguageBar() {
                 </Link>
                 <Link href="/">
                   <Image src="/facebook.svg" height={15} width={15} alt="Facebook Gran Vellas Urbanismo"></Image>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

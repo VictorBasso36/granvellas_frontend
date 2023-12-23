@@ -54,7 +54,7 @@ export default function Footer() {
             </li>
             <li>
               <div className={styles.SocialMidia}>
-                <Link href="/">
+                {/* <Link href="/">
                   <Image src="/instagram.svg" height={15} width={15} alt="Instagram Gran Vellas Urbanismo"></Image>
                 </Link>
                 <Link href="/">
@@ -62,7 +62,7 @@ export default function Footer() {
                 </Link>
                 <Link href="/">
                   <Image src="/facebook.svg" height={15} width={15} alt="Facebook Gran Vellas Urbanismo"></Image>
-                </Link>
+                </Link> */}
               </div>
             </li>
           </ul>
